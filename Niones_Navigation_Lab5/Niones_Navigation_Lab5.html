@@ -1,0 +1,57 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+
+	<head>
+		<title>Gnarly Navigation Panel</title>
+			
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+			
+			<style type="text/css">
+				.page-holder {
+					min-height: 100vh;
+				}
+
+				.bg-hover {
+					background-size: 1280px
+					!important;
+				}
+			</style>
+		</head>
+
+		<body>
+			<div style="background: url(Images/Gang1.jpg)" class="page-holder bg-hover">
+
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+					<a class="navbar-brand" href="#"><img src="Images/G.png" alt="logo" style="width: 40px;"></a>
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#home_tab" style="font-family: Copperplate Gothic">Home</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#" style="font-family: Copperplate Gothic">Motto</a>
+									<a class="dropdown-item" href="#" style="font-family: Copperplate Gothic">History</a>
+									<a class="dropdown-item" href="#" style="font-family: Copperplate Gothic">Contact and Directory</a>
+									<a class="dropdown-item" href="#" style="font-family: Copperplate Gothic">Board of Regents</a>
+								</div>
+							</li>
+						</ul>
+					<form class="form-inline" action="#">
+						<input class="form-control mr-sm-2" type="text" style="font-family: Copperplate Gothic" placeholder="Search">
+						<button class="btn btn-warning" type="submit" style="font-family: Copperplate Gothic">Search</button>
+					</form>
+						
+				</nav>
+			</div>
+		</body>
+</html>	
